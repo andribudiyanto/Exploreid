@@ -8,7 +8,7 @@ install:
   - git clone https://github.com/flutter/flutter.git -b beta
   - ./flutter/bin/flutter doctor
 script:
-  - cd app
+  - cd myapp
   - ../flutter/bin/flutter $COMMAND
 cache:
   directories:
